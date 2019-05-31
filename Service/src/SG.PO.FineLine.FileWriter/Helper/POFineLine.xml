@@ -1,0 +1,24 @@
+﻿<WriteFixedWidth Table="pofineline" StartAt="1" Output="Return">  
+  <Position Start="1" Length="7" Name="ActivityCode"/>
+  <Position Start="8" Length="11" Name="Company"/>
+  <Position Start="12" Length="18" Name="PurchaseOrder"/>
+  <Position Start="19" Length="19" Name="SKUNumber" />
+  <Position Start="20" Length="32" Name="PurchaseOrderDate"/>
+  <Position Start="33" Length="45" Name="PurchaseOrderReviseDate"/>
+  <Position Start="46" Length="52" Name="VendorNumber"/>
+  <Position Start="53" Length="59" Name="SubVendorNumber"/>
+  <Position Start="60" Length="75" Name="SKUDescription"/>
+  <Position Start="76" Length="94" Name="VendorStyleNumber"/>
+  <Position Start="95" Length="101" Name="TicketType"/>
+  <Position Start="102" Length="132" Name="TicketDescription"/>
+  <Position Start="133" Length="142" Name="TicketRetail" />
+  <Position Start="143" Length="147" Name="ClassID"/>
+  <Position Start="148" Length="173" Name="ClassDescription"/>
+  <Position Start="174" Length="179" Name="SubClassID"/>
+  <Position Start="180" Length="205" Name="SubClassDescription"/>
+  <Position Start="206" Length="212" Name="OrderQuantity"/>
+  <Position Start="213" Length="216" Name="Currency"/>
+  <Position Start="217" Length="232" Name="Size"/>
+  <Position Start="233" Length="234" Name="ActionCode" />
+  <Position Start="235" Length="237" Name="ISOCountryCode"/>  
+</WriteFixedWidth>

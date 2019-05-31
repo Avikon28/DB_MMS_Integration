@@ -1,0 +1,54 @@
+﻿<WriteFixedWidth Table="pointertek" StartAt="1" Output="Return">
+	<Position Start="1" Length="1" Name="ActivityCode"/>
+	<Position Start="2" Length="6" Name="ConSignee"/>
+	<Position Start="7" Length="28" Name="PONumber" />
+	<Position Start="29" Length="36" Name="DeliveryDate"/>
+	<Position Start="37" Length="37" Name="CalculatedField1"/>
+	<Position Start="38" Length="38" Name="ConstantField1" DefaultValue="N"/>
+	<Position Start="40" Length="59" Name="SKU"/>	
+	<Position Start="60" Length="67" Name="CalculatedField2"/>
+	<Position Start="68" Length="75" Name="CancelDate"/>
+	<Position Start="76" Length="77" Name="Country"/>	
+	<Position Start="93" Length="99" Name="BuyQuantity" Type="N"/>
+	<Position Start="100" Length="101" Name="Filler5"  DefaultValue="EA"/>	
+	<Position Start="104" Length="109" Name="LocationNumber"/>
+	<Position Start="110" Length="110" Name="Filler7" DefaultValue="N"/>	
+	<Position Start="114" Length="193" Name="SkuDesc"/>
+	<Position Start="194" Length="200" Name="BuyQuantity" Type="N"/>
+	<Position Start="201" Length="204" Name="MasterPackQuantity" Type="N"/>
+	<Position Start="205" Length="206" Name="Filler8" DefaultValue="EA"/>	
+	<Position Start="207" Length="211" Name="ClassCode"/>
+  <Position Start="212" Length="213" Name="Owner" DefaultValue="S"/>
+	<Position Start="214" Length="228" Name="LocationNumber"/>
+	<Position Start="244" Length="259" Name="HTSCode"/>
+	<Position Start="260" Length="289" Name="VendorName" />
+	<Position Start="310" Length="317" Name="ShipDate"/>	
+	<Position Start="434" Length="443" Name="SubVendorNumber"/>	
+	<Position Start="498" Length="498" Name="CalculatedField3"/>
+  <Position Start="499" Length="500" Name="Filler20" DefaultValue="OC"/>
+	<Position Start="558" Length="562" Name="EmployeeId"/>
+	<Position Start="563" Length="567" Name="DistributorId"/>
+  <Position Start="568" Length="574" Name="PreDistributionQty" Type="N"/>
+	<Position Start="575" Length="582" Name="CreateDate"/>
+	<Position Start="583" Length="583" Name="CalculatedField4"/>
+	<Position Start="584" Length="589" Name="MasterPackCubicFeet" Type="N"/>
+	<Position Start="590" Length="591" Name="LOB"/>
+	<Position Start="592" Length="594" Name="DutyPctOfFOB" Type="N"/>	
+	<Position Start="597" Length="605" Name="DutyCost" Type="N"/>
+	<Position Start="606" Length="614" Name="EstimatedLandedCost" Type="N"/>
+	<Position Start="615" Length="623" Name="FirstCost" Type="N"/>
+	<Position Start="624" Length="631" Name="ShipDate"/>
+	<Position Start="632" Length="646" Name="DepartmentName"/>
+	<Position Start="647" Length="661" Name="ClassName"/>
+	<Position Start="662" Length="664" Name="DepartmentCode"/>
+	<Position Start="668" Length="668" Name="CalculatedField5"/>
+	<Position Start="674" Length="681" Name="PrepackId"/>
+	<Position Start="682" Length="684" Name="CalculatedField6"/>
+	<Position Start="685" Length="693" Name="CalculatedField7" Type="N"/>
+	<Position Start="694" Length="694" Name="CPSIATestingRequired"/>
+	<Position Start="695" Length="695" Name="NonPaintTestingRequired"/>
+	<Position Start="696" Length="696" Name="IsChildClothCostume"/>
+	<Position Start="697" Length="697" Name="IsGlassDishAdultJewelry"/>
+	<Position Start="698" Length="698" Name="IntlSafetyTransitTestRequired"/>	
+	<Position Start="1378" Length="1378" Name="OrderType" DefaultValue="C"/>
+</WriteFixedWidth>

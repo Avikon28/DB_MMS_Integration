@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28306.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SG.PO.Chino.CommandService", "src\SG.PO.Chino.CommandService\SG.PO.Chino.CommandService.csproj", "{D1B6CA33-51EF-4D25-B821-3DD723E17732}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SG.PO.Chino.CommandService.Core", "src\SG.PO.Chino.CommandService.Core\SG.PO.Chino.CommandService.Core.csproj", "{DB5091A3-81FA-4590-8BB3-22A6D7255621}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SG.PO.Chino.DataModels", "src\SG.PO.Chino.DataModels\SG.PO.Chino.DataModels.csproj", "{558B28A3-3F5F-48B3-833F-4E6D1B981DDC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SG.Shared.POProduct", "src\SG.Shared.POProduct\SG.Shared.POProduct.csproj", "{32240BEC-3D05-4296-BD4B-39A1F53FEF44}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SG.PO.Chino.ProcessingService", "src\SG.PO.Chino.ProcessingService\SG.PO.Chino.ProcessingService.csproj", "{C495A5BF-EF8F-4C74-830B-64081DD5243F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SG.PO.Chino.Ingester", "src\SG.PO.Chino.Ingester\SG.PO.Chino.Ingester.csproj", "{2C8B9930-F79B-460D-B035-EFADFFFCFA7A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1B6CA33-51EF-4D25-B821-3DD723E17732}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1B6CA33-51EF-4D25-B821-3DD723E17732}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1B6CA33-51EF-4D25-B821-3DD723E17732}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1B6CA33-51EF-4D25-B821-3DD723E17732}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB5091A3-81FA-4590-8BB3-22A6D7255621}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB5091A3-81FA-4590-8BB3-22A6D7255621}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB5091A3-81FA-4590-8BB3-22A6D7255621}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB5091A3-81FA-4590-8BB3-22A6D7255621}.Release|Any CPU.Build.0 = Release|Any CPU
+		{558B28A3-3F5F-48B3-833F-4E6D1B981DDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{558B28A3-3F5F-48B3-833F-4E6D1B981DDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{558B28A3-3F5F-48B3-833F-4E6D1B981DDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{558B28A3-3F5F-48B3-833F-4E6D1B981DDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32240BEC-3D05-4296-BD4B-39A1F53FEF44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32240BEC-3D05-4296-BD4B-39A1F53FEF44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32240BEC-3D05-4296-BD4B-39A1F53FEF44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32240BEC-3D05-4296-BD4B-39A1F53FEF44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C495A5BF-EF8F-4C74-830B-64081DD5243F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C495A5BF-EF8F-4C74-830B-64081DD5243F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C495A5BF-EF8F-4C74-830B-64081DD5243F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C495A5BF-EF8F-4C74-830B-64081DD5243F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C8B9930-F79B-460D-B035-EFADFFFCFA7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C8B9930-F79B-460D-B035-EFADFFFCFA7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C8B9930-F79B-460D-B035-EFADFFFCFA7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C8B9930-F79B-460D-B035-EFADFFFCFA7A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {289811C3-8A75-47D2-9130-AE5C9596E49C}
+	EndGlobalSection
+EndGlobal

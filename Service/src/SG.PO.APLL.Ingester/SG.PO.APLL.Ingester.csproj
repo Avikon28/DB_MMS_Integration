@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <ApplicationIcon />
+    <OutputType>Exe</OutputType>
+    <StartupObject />
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="SG.Ingester" Version="2.0.9" />
+    <PackageReference Include="SG.MMS.PO.Events" Version="1.1.6" />
+    <PackageReference Include="SG.MMS.Product.Events" Version="1.1.2" />
+    <PackageReference Include="SG.Vendor.MMS.Events" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="appsettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>
