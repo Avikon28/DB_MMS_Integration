@@ -1,0 +1,5 @@
+﻿<WriteFixedWidth Table="orders" StartAt="1" Output="Return">
+  <Position Start="1" Length="5" Name="poNumber"/>
+  <Position Start="6" Length="11" Name="sku"/>
+  <Position Start="12" Length="15" Name="statusCode" />
+</WriteFixedWidth>

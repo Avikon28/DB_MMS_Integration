@@ -1,0 +1,22 @@
+﻿<WriteFixedWidth Table="pofineline" StartAt="1" Output="Return">
+  <Position Start="1" Length="6" Name="PurchaseOrder"/>
+  <Position Start="7" Length="16" Name="PurchaseOrderDate"/>
+  <Position Start="17" Length="26" Name="PurchaseOrderReviseDate"/>
+  <Position Start="27" Length="32" Name="VendorNumber"/>
+  <Position Start="33" Length="38" Name="SubVendorNumber"/>
+  <Position Start="39" Length="46" Name="SKUNumber" /> 
+  <Position Start="47" Length="61" Name="SKUDescription"/>
+  <Position Start="62" Length="79" Name="VendorStyleNumber"/>
+  <Position Start="80" Length="85" Name="TicketType"/>
+  <Position Start="86" Length="115" Name="TicketDescription"/>
+  <Position Start="116" Length="124" Name="TicketRetail" Type="N"/>
+  <Position Start="125" Length="128" Name="ClassID"/>
+  <Position Start="129" Length="153" Name="ClassDescription"/>
+  <Position Start="154" Length="158" Name="SubClassID"/>
+  <Position Start="159" Length="183" Name="SubClassDescription"/>
+  <Position Start="184" Length="188" Name="OrderQuantity" Type="N"/>
+  <Position Start="189" Length="191" Name="Currency"/>
+  <Position Start="192" Length="206" Name="Size"/>
+  <Position Start="207" Length="207" Name="ActivityCode" />
+  <Position Start="208" Length="209" Name="ISOCountryCode"/>
+</WriteFixedWidth>

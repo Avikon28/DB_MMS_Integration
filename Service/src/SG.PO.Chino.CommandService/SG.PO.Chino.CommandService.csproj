@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
+    <UserSecretsId>30188507-dbca-4dea-a18e-fbad8661426e</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.3" />
+    <PackageReference Include="Microsoft.CodeAnalysis.Common" Version="2.8.0" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Abstractions" Version="2.1.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.0" />
+    <PackageReference Include="NEST" Version="6.2.0" />
+    <PackageReference Include="Serilog.Extensions.Logging" Version="2.0.2" />
+    <PackageReference Include="Serilog.Sinks.Console" Version="3.1.1" />
+    <PackageReference Include="Serilog.Sinks.Kafka" Version="2.0.5" />
+    <PackageReference Include="SG.MMS.Product.Events" Version="1.1.2" />
+    <PackageReference Include="SG.Product.Image.Events" Version="1.0.0" />
+    <PackageReference Include="SG.Product.Specs.Events" Version="1.0.0" />
+    <PackageReference Include="SG.Shared.ElasticSearch" Version="1.0.0" />
+    <PackageReference Include="SG.Shared.Web" Version="2.0.4" />
+  </ItemGroup>
+  
+
+  <ItemGroup>
+    <ProjectReference Include="..\SG.PO.Chino.CommandService.Core\SG.PO.Chino.CommandService.Core.csproj" />
+  </ItemGroup>
+
+</Project>
