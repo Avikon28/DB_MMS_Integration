@@ -42,7 +42,7 @@ namespace SG.PO.APLL.ProcessingService
             catch (Exception e)
             {
                 _logger.LogError(e.Message);
-                //_logger.LogCritical(null, e, "Failure in publish");
+                //_logger.LogCritical(null, e, "Failure in publish..");
                 return;
             }
 
