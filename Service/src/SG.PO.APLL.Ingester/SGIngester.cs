@@ -57,7 +57,7 @@ namespace SG.PO.APLL.Ingester
         {
 
             var callCommandService = new TryCatchFinallyHandler<Message>(CreateHttpHandler(),
-                after: msg => Logger.LogInformation(EventIds.SuccessfullyProcessedEvent, "Succesfully processed event"),
+                after: msg => Logger.LogInformation(EventIds.SuccessfullyProcessedEvent, "Succesfully processed event."),
                 onError: (msg, e) =>
                 {
                     Logger.LogError(EventIds.ErrorProcessingEvent, e, "Error processing event. Errors {e}", e.Data.Values);
