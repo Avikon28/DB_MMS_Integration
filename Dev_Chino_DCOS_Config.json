@@ -22,7 +22,7 @@
     "type": "DOCKER",
     "volumes": [],
     "docker": {
-      "image": "prodmicroservicesregistry.azurecr.io/sg.po.chino.commandservice:dev",
+      "image": ""TESTmicroservicesregistry.azurecr.io/$(Docker.ImageName):$(Build.BuildNumber)",
       "network": "USER",
       "portMappings": [
         {
