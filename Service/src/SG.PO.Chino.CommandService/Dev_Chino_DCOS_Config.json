@@ -1,6 +1,6 @@
 {
   "id": "/dev/po/chino/commandservice",
-  "instances": 0,
+  "instances": 1,
   "cpus": 0.05,
   "mem": 256,
   "disk": 0,
