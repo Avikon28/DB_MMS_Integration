@@ -21,7 +21,7 @@
     "type": "DOCKER",
     "volumes": [],
     "docker": {
-      "image": "testmicroservicesregistry.azurecr.io/$(Docker.ImageName):$(Build.BuildNumber)",
+      "image": "testmicroservicesregistry.azurecr.io/sg.po.apll.commandservice:devops",
       "network": "USER",
       "portMappings": [
         {
@@ -65,7 +65,7 @@
     "ElasticSettings:NodeList:0": "http://eht-elastic-01:9200",
     "LOCATION": "development",
     "ElasticSettings:NodeList:1": "http://eht-elastic-02:9200",
-    "CurrentIndex": "po-chino-current-dev",
+    "CurrentIndex": "po-apll-current-dev",
     "ElasticSettings:IndexFilter:TypeIndexMapping:0:TypeName": "SG.PO.APLL.DataModel.Outputmodels.POAPLLOutput",
     "serilog.sinks.kafka:kafka:bootstrap.servers": "eht-kafka-d01:9092,eht-kafka-d02:9092,eht-kafka-d03:9092",
     "loglevel": "Debug"
