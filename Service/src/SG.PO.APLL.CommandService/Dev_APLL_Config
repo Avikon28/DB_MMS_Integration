@@ -56,7 +56,6 @@
   "requirePorts": false,
   "env": {
     "BaseAddress:QueryServiceAddress": "http://devsgeventsyncqueryservice.marathon.l4lb.thisdcos.directory:80/api/v2/",
-    "ElasticSettings:Password": "HVaMc9W7e!#cf",
     "ElasticSettings:NodeList:2": "http://eht-elastic-03:9200",
     "ElasticSettings:IndexFilter:TypeIndexMapping:0:IndexMap": "po-apll-current-dev",
     "ElasticSettings:Username": "po_integrations",
