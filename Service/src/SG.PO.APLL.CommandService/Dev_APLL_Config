@@ -26,7 +26,6 @@
       "portMappings": [
         {
           "containerPort": 80,
-          "servicePort": 10255,
           "name": "pocs",
           "labels": {
             "VIP_0": "/dev/devops/sg/po/apll/commandservice:80"
