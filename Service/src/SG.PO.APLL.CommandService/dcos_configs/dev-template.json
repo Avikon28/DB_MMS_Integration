@@ -1,5 +1,5 @@
 {
-  "id": "/dev/devops/sg/po/apll/commandservice",
+  "id":"##",
   "instances": 1,
   "cpus": 0.05,
   "mem": 256,
@@ -29,7 +29,7 @@
           "containerPort": 80,
           "name": "pocs",
           "labels": {
-            "VIP_0": "/dev/devops/sg/po/apll/commandservice:80"
+            "VIP_0": " ## "
           }
         }
       ],
@@ -58,14 +58,10 @@
   "env": {
     "BaseAddress:QueryServiceAddress": "http://devsgeventsyncqueryservice.marathon.l4lb.thisdcos.directory:80/api/v2/",
     "ElasticSettings:NodeList:2": "http://eht-elastic-03:9200",
-    "ElasticSettings:IndexFilter:TypeIndexMapping:0:IndexMap": "po-apll-current-dev",
     "ElasticSettings:Username": "po_integrations",
-    "ElasticSettings:Password": "#ElasticSettings:Password#",
     "serilog.sinks.kafka:topic": "logging_integration_po",
     "ElasticSettings:NodeList:0": "http://eht-elastic-01:9200",
-    "LOCATION": "development",
     "ElasticSettings:NodeList:1": "http://eht-elastic-02:9200",
-    "CurrentIndex": "po-apll-current-dev",
     "ElasticSettings:IndexFilter:TypeIndexMapping:0:TypeName": "SG.PO.APLL.DataModel.Outputmodels.POAPLLOutput",
     "serilog.sinks.kafka:kafka:bootstrap.servers": "eht-kafka-d01:9092,eht-kafka-d02:9092,eht-kafka-d03:9092",
     "loglevel": "Debug"
